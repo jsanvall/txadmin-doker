@@ -1,4 +1,4 @@
-FROM ubuntu:22.04 AS builder
+FROM ubuntu:24.04 AS builder
 
 ARG fx_file
 
@@ -11,7 +11,7 @@ RUN wget ${fx_file} && \
     rm -f fx.tar.xz && \
     chown -R root:root /opt/server
 
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 WORKDIR /opt/server
 

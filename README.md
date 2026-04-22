@@ -4,7 +4,7 @@ FiveM txAdmin server docker image
 ## Build
 Use the latest zip file from: https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/
 ```
-docker build --build-arg tx_file="https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/6576-bc1ac1bfb2b9bd986c62bca909ffaa1570cfa609/fx.tar.xz" -t txadmin .
+docker build --build-arg fx_file="https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/28556-afc95ef9e1ec91e08f2d22c320ed2d8f2a4ac9a7/fx.tar.xz" -t txadmin .
 ```
 
 ## Run
